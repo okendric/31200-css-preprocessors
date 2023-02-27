@@ -1,0 +1,14 @@
+nav {
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  background-color: #f8a501;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav h3 {
+  font-family: sans-serif;
+}
+
+/*# sourceMappingURL=nav.css.map */
