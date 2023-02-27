@@ -1,0 +1,29 @@
+@import "../scss/variables";
+
+@mixin square($width, $height){
+    width: $width;
+    height: $height;
+};
+
+#square1 {
+    background-color: $red;
+    @include square(100px, 100px);
+}
+
+#square2 {
+    background-color: $blue;
+    @include square(200px, 200px);
+
+}
+
+#square3 {
+    background-color: $green;
+    @include square(250px, 250px);
+
+}
+
+#square4 {
+    background-color: $purple;
+    @include square(50px, 50px);
+
+}
